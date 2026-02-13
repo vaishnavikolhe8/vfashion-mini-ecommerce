@@ -6,6 +6,10 @@ The application fetches product data from an external API and dynamically displa
 This project focuses on core frontend development concepts such as DOM manipulation, event handling, asynchronous JavaScript (Fetch API), and state management using LocalStorage.
 
 ------
+## 🌍 Live Demo
+https://vfashion-mini-ecommerce1.vercel.app/
+
+------
 
 ## 🚀 Features
 

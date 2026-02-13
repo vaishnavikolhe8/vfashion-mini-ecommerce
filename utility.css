@@ -1,0 +1,168 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+:root {
+  --primary-color: #dca91b;
+  --secondary-color: rgb(225, 225, 225);
+}
+
+.display-none{
+  display: none;
+}
+.active{
+  display: block;
+}
+
+.hero-margin {
+    margin: 40.5px 74px;
+}
+
+.title-box {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.title-rect {
+    height: 40px;
+    width: 16px;
+    border-radius: 2px;
+    background-color: black;
+}
+
+.card-box {
+    /* border: 2px solid red; */
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    padding: 8px;
+    width: 300px;
+    height: 420px;
+    box-shadow: 0 10px 25px rgb(108 103 76 / 83%);
+  border-radius: 10px;
+}
+
+.card-img {
+    height: 80%;
+}
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-info {
+    height: 15%;
+    position: relative;
+    padding: 8px;
+}
+.card-arrow{
+  position: absolute;
+  right: 12px;
+}
+
+
+
+/* table for cart */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #ffffff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+th{
+    background-color: #E5C643;
+    color: #1f1f1f;
+    padding: 14px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+td {
+    padding: 14px;
+    color: #333;
+    border-bottom: 1px solid #eee;
+}
+
+/* Remove last border */
+tr:last-child td {
+    border-bottom: none;
+}
+
+/* Hover effect */
+tbody tr {
+    transition: background 0.25s ease, transform 0.2s ease;
+}
+
+tbody tr:hover {
+    background-color: #fff8e1;
+    transform: scale(1.01);
+}
+
+/* Image inside table */
+td img {
+    border-radius: 3px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+}
+
+td.remove {
+    font-weight: bold;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+td.remove:hover {
+    transform: scale(1.2);
+    color: #e60000;
+}
+
+
+.totalCont{
+    padding: 12px;
+    width: 166px;
+    background-color: var(--primary-color);
+    margin: 17px;
+    border-radius: 32px;
+}
+
+
+/* global massage */
+#msg {
+    position: fixed;
+    top: 20px;
+    right: 40vw;
+    padding: 10px 14px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: none;
+}
+
+#msg.success {
+    background: #d1fae5;
+    color: #065f46;
+}
+
+#msg.error {
+    background: #fee2e2;
+    color: #7f1d1d;
+}
